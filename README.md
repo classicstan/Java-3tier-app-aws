@@ -1,23 +1,23 @@
 ## Java Login App ##
 Testing 
 
-## Sample Java Login application uses "UserDB" database and Table schema to store the Employee Login details. ##
+# Sample Java Login application uses "UserDB" database and Table schema to store the Employee Login details. ##
 
 ## How to see list of Databases ##
 SHOW DATABASES;
 
-## How to create Database ##
+# How to create Database ##
 
 CREATE DATABASE UserDB;
 
-## How to list Tables ##
+# How to list Tables ##
 
 USE UserDB;
 
 SHOW TABLES;
 
-## How to create Table ##
-## Below Query to create require TABLE schema to store Employee records ##
+# How to create Table ##
+# Below Query to create require TABLE schema to store Employee records ##
 
 CREATE TABLE Employee (
   id int unsigned auto_increment not null,
@@ -30,8 +30,8 @@ CREATE TABLE Employee (
   primary key (id)
 );
 
-## List Table data ##
+# List Table data ##
 SELECT * FROM Employee;
 
-## Describe Table schema ##
+# Describe Table schema ##
 DESCRIBE Employee;
